@@ -1,0 +1,146 @@
+body{
+    background: url('https://thumbs.dreamstime.com/z/old-music-sheet-blue-watercolor-paint-blues-concept-abstract-background-close-up-164881153.jpg');
+    background-size: cover;
+    background-position: top 50px;
+}
+h1{
+    background-color:#C9F1FF;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Special Elite', cursive;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+    background-color: #fdd017;
+}
+.menu1{
+    background: color #ea8317;;
+    font-weight: bold;
+    color:#DD9BCF;
+}
+.menu1{
+    float:left;
+    list-style:none;
+    color:white;
+    position:fixed;
+    background-color:#ffd801;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index:10;
+    font-family: 'Readex Pro', sans-serif;
+    }
+    .links{
+    display:inline;
+    font-size:20px;
+    padding-left:35px;
+    padding-right:35px;
+    }
+#home{
+    background-color: rgb(206, 176, 24);
+}
+h2{
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Special Elite', cursive;
+    color: black;
+    }
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px; 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .div2{
+    font-family: 'Readex Pro', sans-serif;
+  }
+  .div2 ul{
+     color: black;
+     font-family: 'Readex Pro', sans-serif;
+  }
+  hr{
+    color: black;
+  }
+  .div_{
+    background-color: #055099;
+    height: 385px;
+  }
+  #hindi_btn, #tamil_btn{
+    margin-left: 240px;
+    width: 300px;
+    height: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
+  #french_btn, #english_btn{
+    margin-left: 300px;
+    width: 300px;
+    height: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
+  #pujabi_btn{
+    margin-left: 700px;
+    width: 300px;
+    height: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+    border-radius:20px;
+  }
+  #div_punjabi{
+    background-color:#055099;
+  }
+  #hindi_btn{
+    background-color: #fdd017;
+    border-radius: 20px;
+  }
+  #english_btn{
+    background-color: #c49526;
+    border-radius: 20px;
+  }
+  #french_btn{
+    background-color: #ea8317;
+    border-radius: 20px;
+  }
+  #tamil_btn{
+    background-color: yellow;
+    border-radius: 20px;
+  }
+  #pujabi_btn{
+    background-color: goldenrod;
+    border-radius: 20px;
+  }
+  #mark1{
+    font-family: 'Readex Pro', sans-serif;
+    height: 40px;
+  }
+  #about{
+    background-color:#055099;
+  }
+  #mark2{
+    margin-left: 750px;
+    font-size: 20px;
+    font-family: 'Readex Pro', sans-serif;
+  }
+  h3{
+    background-color: #ea8317;
+    font-family: 'Readex Pro', sans-serif;
+    width: 400px;
+  }
+  p{
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: medium;
+  }

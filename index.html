@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>AI MUSIC WEBAPP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montagu+Slab:opsz,wght@16..144,500&family=Oswald&family=Readex+Pro&family=Rubik+Moonrocks&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,500&family=Oswald&family=Readex+Pro&family=Rubik+Moonrocks&family=Special+Elite&display=swap" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js" target="_blank"></script>
+  <script src="main.js"></script>
+    </head>
+    <body>
+        <div>
+        <center>   
+            <ul class="menu1">
+              <li class="links"><a href="#home">Home</a></li>
+            </ul>
+        </center>
+        </div>
+        <section id="home">
+        <center>
+        <div class="btn btn-primary" id="div1" style="background-color:#C9F1FF;">
+        <h1>AI MUSIC WEBAPP</h1>
+        <h2 style="font-family: 'Readex Pro', sans-serif;">Choose your pair of language from below or pair of music genres and manipulate your song from your wrist!</h2>
+    </div>
+</center>
+</section>
+<section>
+<div class="row div2">
+    <div class="column" style="background-color:lightblue;">
+        <h2 style="background-color:lightyellow; border-radius:20px;">LANGUAGES:</h2>
+        <div class="menu2">
+            <button style="background-color:lightyellow; width: 300px; height: 50px; font-size: 20px;" onclick="next_page1();">Punjabi & English</button>
+            <button style="background-color:lightyellow; width: 300px; height: 50px; font-size: 20px;" onclick="next2();">Tamil & Hindi</button>
+        </div>
+    </div>
+    <div class="column div2" style="background-color:lightyellow;">
+        <h2 style="background-color:lightblue; border-radius:20px;">OR GENRES:</h2>
+        <ul class="menu2">
+            <button class="links" a href="#rock_sec" style="background-color: lightblue; width: 300px; height: 50px; font-size: 20px;" onclick="next3()">Rock & Folk</button>
+            <button class="links" a href="#folk_sec" style="background-color: lightblue; width: 300px; height: 50px; font-size: 20px;" onclick="next4();">Pop & Instrumental</button>
+        </ul>
+    </div>
+  </div>
+  <div>
+    <mark color="yellow" id="mark1" style="margin-bottom: 50px; font-family: 'Readex Pro', sans-serif; background-color: yellow;"><marquee style="margin-top: 25px;">CLICK ON YOUR DESIRED LANGUAGE OR MUSIC GENRE PAIR TO DIRECT TO THE NEXT WEBPAGE-</marquee></mark>
+  </div>
+  <hr width="50%;" color="black">
+    </body>
+</html>

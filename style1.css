@@ -1,0 +1,44 @@
+#body2{
+    background-image: url('https://img.freepik.com/free-vector/elegant-diwali-background-with-oil-lamps-design_1048-13104.jpg?w=2000');
+    background-size: cover;
+    background-position: top 50px;
+}
+canvas{
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 70px;
+}
+#song_id{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 815px;
+}
+.menu1{
+    background: color #ea8317;;
+    font-weight: bold;
+    color:#DD9BCF;
+}
+.menu1{
+    float:left;
+    list-style:none;
+    color:white;
+    position:fixed;
+    background-color:#ffd801;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index:10;
+    font-family: 'Readex Pro', sans-serif;
+    }
+    .links{
+        display:inline;
+        font-size:20px;
+        padding-left:35px;
+        padding-right:35px;
+        }
+    #btn_eng{
+        margin-left: 1470px;
+    }
+    #btn_punjabi{
+        margin-left: 20px;
+    }
